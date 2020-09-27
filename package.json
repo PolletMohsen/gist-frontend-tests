@@ -1,0 +1,27 @@
+{
+  "name": "testing",
+  "version": "1.0.0",
+  "description": "Tests of FrontEnd",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^6.7.2",
+    "testcafe": "^1.8.1",
+    "testcafe-live": "^0.1.4",
+    "dotenv": "8.2.0",
+    "dotenv-expand": "5.1.0"
+  },
+  "scripts": {
+    "test": "node ./testcafe.config.js",
+    "lint": "eslint . --ext .js --ext .ts --ext .spec.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "no"
+  },
+  "keywords": [
+    "no"
+  ],
+  "author": "pollet",
+  "license": "ISC"
+}
